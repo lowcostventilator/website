@@ -3,7 +3,8 @@
     "name": "startbootstrap-landing-page",
     "version": "5.0.7",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "local": "node_modules/.bin/gulp watch",
+        "start": "http-server -p 5000"
     },
     "description": "An HTML landing page template built with Bootstrap",
     "keywords": [
@@ -31,7 +32,10 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
+        "express": "^4.17.1",
+        "http-server": "^0.12.3",
         "jquery": "3.4.1",
+        "popper.js": "^1.14.7",
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
